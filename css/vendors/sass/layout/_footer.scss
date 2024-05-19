@@ -1,0 +1,16 @@
+footer{
+    background-color: #0f0f00;
+    padding:40px 0px;
+    a{
+       color:#fff;
+       opacity: .7;
+       &:hover{
+          opacity:1;
+          color:white;
+       } //hover
+    } //a
+    p{
+      color:#fff;
+
+    } //p
+} //footer

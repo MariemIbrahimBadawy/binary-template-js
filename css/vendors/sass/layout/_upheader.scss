@@ -1,0 +1,47 @@
+
+.container-uppernav{
+    margin:10px 15px;
+          p{
+              font-size:10px;
+              color:rgb(61, 58, 58);
+              white-space: nowrap;
+              margin-bottom:0;
+              b{
+                  color:black;
+              } //b
+          } //p
+              .downtext{
+                  font-size: 9px;
+                  color:#666;
+                  .darkcolor{
+                    color:black;
+                  } // .downcolor
+              } // .downtext
+                  a{
+                      background-color: $labaniColor;
+                      color:white;
+                      border-radius: 2px;
+                      margin-right:0;
+                      cursor: pointer;
+                      &:hover{
+                          color:white;
+                          background-color: $shadoLabanColor;
+                      }
+                  } //a
+       
+             .iconhome{
+              margin-top: 20px;
+          
+             a{
+                 background-color: $mainColor;
+              border:2px solid $shadowMainColor;
+              padding:7px 17px;
+      
+              &:hover{
+                  color:white;
+                  border-color:$shadowMainColor;
+                  background-color: $shadowMainColor;
+              } // a:hover
+          } //a
+      } // .iconhome
+  } //.conteiner-uppernav

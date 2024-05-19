@@ -1,0 +1,303 @@
+@import 'sass/componant/var';
+@import 'sass/componant/btn';
+@import 'sass/layout/upheader'; 
+@import 'sass/layout/header'; 
+@import 'sass/layout/navbar'; 
+@import 'sass/layout/footer'; 
+@import 'sass/layout/loading'; 
+
+
+body{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*
+ ============================================
+  ********** sTart Sections *********
+ ============================================ 
+*/
+    .section-info{
+        width:80%;
+        height: 100%;
+        margin: auto;
+        padding-top:70px;
+       text-align: right;
+    
+       a{
+           color:$mainColor;   
+       h1{
+        color:$mainColor;
+        padding-bottom: 40px;
+        font-size: 30px;
+       } //h1
+     }//a
+     .spantext{ 
+          padding:10px;
+           border-top: 1px  solid #8888; 
+           border-bottom: 1px  solid #8888;
+           margin-bottom:20px;
+            span:first-child{
+               color:#8888;
+           } //span 1
+           span:last-child{
+               color:$mainColor;
+           } //span 2
+      } //div
+      p{
+        color:#444;
+        line-height: 35px;
+      }//p
+    .container-rowicon{
+        display: flex;
+        justify-content: flex-start;
+        .icon{
+            border: 1px solid lightgray;
+            margin-top:5px;
+            color:$mainColor;
+            font-size: 20px;
+            cursor: pointer;
+
+      } //icon
+     } //conteiner-rowicon
+ } //section-info
+    .sec-photoedit{
+        display: flex;
+        width:100%;
+        height: 100%;
+        img{
+            width:100%;
+            background-origin: content-box;
+        } //img
+    } // .sec-photoedit   
+ 
+ 
+/* 
+======================================
+==================== Two ===============
+======================================= */
+.two{
+    .sec-photoedit{
+        display: flex;
+        width:100%;
+        height: 100%;
+        img{
+            width:100%;
+        } //img
+    } // .sec-photoedit  
+    .cont-backcolor{
+        background-color: $mainColor;
+        padding-bottom: 9px;
+        height: 100%;
+    }
+    .section-info{
+        text-align: left;
+        a{
+            color:white;   
+        h1{
+         color:white
+        } //h1
+      }//a
+      .spantext{ 
+        border-top: 1px  solid #eeeeee; 
+           border-bottom: 1px  solid #eeeeee;
+          span:first-child{
+             color:lightgray;
+         } //span 1
+         span:last-child{
+             color:white;
+         } //span 2
+    } //div
+    p{
+      color:white;
+      line-height: 30px;
+    }//p
+    .container-rowicon{
+        display: flex;
+        justify-content: flex-end;
+     .icon{
+        border: 1px solid lightgray;
+        margin-top:5px;
+        color:white;
+        font-size: 18px;
+        
+     } //icon
+    } // .container-rowicon
+  } // .section-info  
+} //two
+ 
+
+/* 
+======================================
+==================== three ===============
+======================================= */
+.three{
+    a{
+        color:$labaniColor;   
+    h1{
+     color:$labaniColor;
+    } //h1
+ } //a
+ .spantext{    
+      span:first-child{
+         color:#8888;
+     } //span 1
+     span:last-child{
+         color:$labaniColor;
+     } //span 2
+ } //div
+
+.container-rowicon{
+    display: flex;
+    justify-content: flex-start;
+ .icon{
+    border: 1px solid lightgray;
+    color:$labaniColor;
+  } //icon
+ } //conteiner-rowicon
+} //three
+
+/* 
+======================================
+==================== four ===============
+======================================= */
+.four{
+    .sec-photoedit{
+        display: flex;
+        width:100%;
+        height: 100%;
+        img{
+            width:100%;
+        } //img
+    } // .sec-photoedit  
+    .cont-backcolor{
+        background-color: $labaniColor;
+        padding-bottom: 9px;
+        height: 100%;
+    }
+    .section-info{
+        text-align: left;
+        a{
+            color:white;   
+        h1{
+         color:white
+        } //h1
+      }//a
+      .spantext{ 
+        border-top: 1px  solid #eeeeee; 
+           border-bottom: 1px  solid #eeeeee;
+          span:first-child{
+             color:lightgray;
+         } //span 1
+         span:last-child{
+             color:white;
+         } //span 2
+    } //div
+    p{
+      color:white;
+      line-height: 30px;
+    }//p
+   
+    .container-rowicon{
+        display: flex;
+        justify-content: flex-end;
+     .icon{
+        border: 1px solid lightgray;
+        margin-top:5px;
+        color:white;
+        font-size: 18px;
+        
+     } //icon
+    } // .container-rowicon
+  } // .section-info  
+} //two
+ 
+
+/* 
+======================================
+==================== five ===============
+======================================= */
+.five{
+    a{
+        color:$moveColor;   
+    h1{
+     color:$moveColor;
+    } //h1
+ } //a
+ .spantext{    
+      span:first-child{
+         color:#8888;
+     } //span 1
+     span:last-child{
+         color:$moveColor;
+     } //span 2
+ } //div
+.container-rowicon{
+    display: flex;
+    justify-content: flex-start;
+ .icon{
+    border: 1px solid lightgray;
+    color:$moveColor
+    
+  } //icon
+ } //conteiner-rowicon
+} //three
+
+/* 
+======================================
+==================== six ===============
+======================================= */
+.six{
+    .sec-photoedit{
+        display: flex;
+        width:100%;
+        height: 100%;
+        img{
+            width:100%;
+        } //img
+    } // .sec-photoedit  
+    .cont-backcolor{
+        background-color: $moveColor;
+        padding-bottom: 9px;
+        height: 100%;
+    }
+    .section-info{
+        text-align: left;
+        a{
+            color:white;   
+        h1{
+         color:white
+        } //h1
+      }//a
+      .spantext{ 
+        border-top: 1px  solid #eeeeee; 
+           border-bottom: 1px  solid #eeeeee;
+          span:first-child{
+             color:lightgray;
+         } //span 1
+         span:last-child{
+             color:white;
+         } //span 2
+    } //div
+    p{
+      color:white;
+      line-height: 30px;
+    }//p
+    .container-rowicon{
+        display: flex;
+        justify-content: flex-end;
+     .icon{
+        border: 1px solid lightgray;
+        margin-top:5px;
+        color:white;
+        font-size: 18px;
+        
+     } //icon
+    } // .container-rowicon
+  } // .section-info  
+} //two
+
+
+
+

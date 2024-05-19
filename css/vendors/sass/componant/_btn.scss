@@ -1,0 +1,118 @@
+// STArt the Uppernav
+.container-uppernav{
+    button{
+        background-color: $mainColor;
+        border:none;
+        padding: 9px 38px;
+        border-radius: 5px;
+        color:white;
+       
+        &:hover{
+            opacity: 1;
+            color:white;
+            background-color: $shadowMainColor;
+        } // bitton:hover
+     } // button
+}
+// End the Uppernav
+
+// sTart the Header
+.header{
+.container-btn{
+    display: flex;
+    justify-content: center;
+}
+.btn-primary{
+ background-color: $labaniColor;
+  margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    &:hover{
+         background-color:$shadoLabanColor;
+    }
+}
+}
+// End the Header
+
+// STart Section info
+.section-info{
+    button{
+        border-color: lightgray;
+        border-radius: 0px;
+        background-color: $mainColor;
+        &:hover{
+            background-color: $shadowMainColor;
+            color:white;
+        } // button hover
+    } // button
+}
+// End Section info
+
+// Start section Two
+button{
+    border-color: lightgray;
+    border-radius: 0px;
+    &:hover{
+        background-color: #3cbea4;
+        opacity:.9;
+        color:white;
+    } // button hover
+} // button
+// End section Two
+
+
+// Start Three Section
+.three{
+    button{
+        border-color: lightgray;
+        background-color: $labaniColor;
+        &:hover{
+          background-color:$shadoLabanColor ;
+        } // button hover
+    } // button
+}
+// End Secton three
+
+
+//Start Secton four
+.four{
+    button{
+        background-color: $labaniColor;
+         &:hover{
+             background-color: $shadoLabanColor;
+             opacity:.9;
+             color:white;
+         } // button hover
+     } // button
+}
+//End Secton four
+
+
+// STart section five
+.five{
+    button{
+        border-color: lightgray;
+        background-color: $moveColor;
+        &:hover{
+          background-color:$shadwMoveColor ;
+        } // button hover
+    } // button
+}
+// End section five
+
+// STart Section six
+.six{
+    button{
+        border-color: lightgray;
+        border-radius: 0px;
+        background-color: $moveColor;
+        &:hover{
+            background-color: $shadwMoveColor;
+            opacity:.9;
+            color:white;
+        } // button hover
+    } // button
+}
+// End Section six
+

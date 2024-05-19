@@ -1,0 +1,670 @@
+.container-uppernav button {
+  background-color: #1abc9c;
+  border: none;
+  padding: 9px 38px;
+  border-radius: 5px;
+  color: white;
+}
+
+.container-uppernav button:hover {
+  opacity: 1;
+  color: white;
+  background-color: #3cbea4;
+}
+
+.header .container-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header .btn-primary {
+  background-color: #1B95E0;
+  margin-bottom: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: bold;
+}
+
+.header .btn-primary:hover {
+  background-color: #4da9e2;
+}
+
+.section-info button {
+  border-color: lightgray;
+  border-radius: 0px;
+  background-color: #1abc9c;
+}
+
+.section-info button:hover {
+  background-color: #3cbea4;
+  color: white;
+}
+
+button {
+  border-color: lightgray;
+  border-radius: 0px;
+}
+
+button:hover {
+  background-color: #3cbea4;
+  opacity: .9;
+  color: white;
+}
+
+.three button {
+  border-color: lightgray;
+  background-color: #1B95E0;
+}
+
+.three button:hover {
+  background-color: #4da9e2;
+}
+
+.four button {
+  background-color: #1B95E0;
+}
+
+.four button:hover {
+  background-color: #4da9e2;
+  opacity: .9;
+  color: white;
+}
+
+.five button {
+  border-color: lightgray;
+  background-color: #9b59b6;
+}
+
+.five button:hover {
+  background-color: #a468bb;
+}
+
+.six button {
+  border-color: lightgray;
+  border-radius: 0px;
+  background-color: #9b59b6;
+}
+
+.six button:hover {
+  background-color: #a468bb;
+  opacity: .9;
+  color: white;
+}
+
+.container-uppernav {
+  margin: 10px 15px;
+}
+
+.container-uppernav p {
+  font-size: 10px;
+  color: #3d3a3a;
+  white-space: nowrap;
+  margin-bottom: 0;
+}
+
+.container-uppernav p b {
+  color: black;
+}
+
+.container-uppernav .downtext {
+  font-size: 9px;
+  color: #666;
+}
+
+.container-uppernav .downtext .darkcolor {
+  color: black;
+}
+
+.container-uppernav a {
+  background-color: #1B95E0;
+  color: white;
+  border-radius: 2px;
+  margin-right: 0;
+  cursor: pointer;
+}
+
+.container-uppernav a:hover {
+  color: white;
+  background-color: #4da9e2;
+}
+
+.container-uppernav .iconhome {
+  margin-top: 20px;
+}
+
+.container-uppernav .iconhome a {
+  background-color: #1abc9c;
+  border: 2px solid #3cbea4;
+  padding: 7px 17px;
+}
+
+.container-uppernav .iconhome a:hover {
+  color: white;
+  border-color: #3cbea4;
+  background-color: #3cbea4;
+}
+
+.header {
+  background-color: #1B95E0;
+  height: 100%;
+}
+
+.header .inf-header {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.header .inf-header h1 {
+  color: white;
+  font-weight: bold;
+  padding: 40px 0px;
+}
+
+.header .inf-header h1 a {
+  color: white;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-color: white;
+}
+
+nav {
+  background-color: black;
+}
+
+nav h2 {
+  color: white;
+}
+
+nav p {
+  color: white;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-light .navbar-nav .active > .nav-link:hover, .navbar-light .navbar-nav .nav-link.active:hover, .navbar-light .navbar-nav .nav-link.show:hover, .navbar-light .navbar-nav .show > .nav-link:hover, .navbar-light .navbar-nav .nav-link:hover {
+  color: white;
+}
+
+footer {
+  background-color: #0f0f00;
+  padding: 40px 0px;
+}
+
+footer a {
+  color: #fff;
+  opacity: .7;
+}
+
+footer a:hover {
+  opacity: 1;
+  color: white;
+}
+
+footer p {
+  color: #fff;
+}
+
+body {
+  overflow: hidden;
+}
+
+.overlay_loading {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  color: wheat;
+  z-index: 44;
+}
+
+.sk-cube-grid {
+  width: 40px;
+  height: 40px;
+  margin: 200px auto;
+}
+
+.sk-cube-grid .sk-cube {
+  width: 33%;
+  height: 33%;
+  background-color: #1abc9c;
+  float: left;
+  -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+  animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+}
+
+.sk-cube-grid .sk-cube1 {
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+}
+
+.sk-cube-grid .sk-cube2 {
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+}
+
+.sk-cube-grid .sk-cube3 {
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+}
+
+.sk-cube-grid .sk-cube4 {
+  -webkit-animation-delay: 0.1s;
+  animation-delay: 0.1s;
+}
+
+.sk-cube-grid .sk-cube5 {
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+}
+
+.sk-cube-grid .sk-cube6 {
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+}
+
+.sk-cube-grid .sk-cube7 {
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+}
+
+.sk-cube-grid .sk-cube8 {
+  -webkit-animation-delay: 0.1s;
+  animation-delay: 0.1s;
+}
+
+.sk-cube-grid .sk-cube9 {
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+}
+
+@-webkit-keyframes sk-cubeGridScaleDelay {
+  0%, 70%, 100% {
+    -webkit-transform: scale3D(1, 1, 1);
+    transform: scale3D(1, 1, 1);
+  }
+  35% {
+    -webkit-transform: scale3D(0, 0, 1);
+    transform: scale3D(0, 0, 1);
+  }
+}
+
+@keyframes sk-cubeGridScaleDelay {
+  0%, 70%, 100% {
+    -webkit-transform: scale3D(1, 1, 1);
+    transform: scale3D(1, 1, 1);
+  }
+  35% {
+    -webkit-transform: scale3D(0, 0, 1);
+    transform: scale3D(0, 0, 1);
+  }
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/*
+ ============================================
+  ********** sTart Sections *********
+ ============================================ 
+*/
+.section-info {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  padding-top: 70px;
+  text-align: right;
+}
+
+.section-info a {
+  color: #1abc9c;
+}
+
+.section-info a h1 {
+  color: #1abc9c;
+  padding-bottom: 40px;
+  font-size: 30px;
+}
+
+.section-info .spantext {
+  padding: 10px;
+  border-top: 1px  solid #8888;
+  border-bottom: 1px  solid #8888;
+  margin-bottom: 20px;
+}
+
+.section-info .spantext span:first-child {
+  color: #8888;
+}
+
+.section-info .spantext span:last-child {
+  color: #1abc9c;
+}
+
+.section-info p {
+  color: #444;
+  line-height: 35px;
+}
+
+.section-info .container-rowicon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.section-info .container-rowicon .icon {
+  border: 1px solid lightgray;
+  margin-top: 5px;
+  color: #1abc9c;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.sec-photoedit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.sec-photoedit img {
+  width: 100%;
+  background-origin: content-box;
+}
+
+/* 
+======================================
+==================== Two ===============
+======================================= */
+.two .sec-photoedit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.two .sec-photoedit img {
+  width: 100%;
+}
+
+.two .cont-backcolor {
+  background-color: #1abc9c;
+  padding-bottom: 9px;
+  height: 100%;
+}
+
+.two .section-info {
+  text-align: left;
+}
+
+.two .section-info a {
+  color: white;
+}
+
+.two .section-info a h1 {
+  color: white;
+}
+
+.two .section-info .spantext {
+  border-top: 1px  solid #eeeeee;
+  border-bottom: 1px  solid #eeeeee;
+}
+
+.two .section-info .spantext span:first-child {
+  color: lightgray;
+}
+
+.two .section-info .spantext span:last-child {
+  color: white;
+}
+
+.two .section-info p {
+  color: white;
+  line-height: 30px;
+}
+
+.two .section-info .container-rowicon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.two .section-info .container-rowicon .icon {
+  border: 1px solid lightgray;
+  margin-top: 5px;
+  color: white;
+  font-size: 18px;
+}
+
+/* 
+======================================
+==================== three ===============
+======================================= */
+.three a {
+  color: #1B95E0;
+}
+
+.three a h1 {
+  color: #1B95E0;
+}
+
+.three .spantext span:first-child {
+  color: #8888;
+}
+
+.three .spantext span:last-child {
+  color: #1B95E0;
+}
+
+.three .container-rowicon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.three .container-rowicon .icon {
+  border: 1px solid lightgray;
+  color: #1B95E0;
+}
+
+/* 
+======================================
+==================== four ===============
+======================================= */
+.four .sec-photoedit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.four .sec-photoedit img {
+  width: 100%;
+}
+
+.four .cont-backcolor {
+  background-color: #1B95E0;
+  padding-bottom: 9px;
+  height: 100%;
+}
+
+.four .section-info {
+  text-align: left;
+}
+
+.four .section-info a {
+  color: white;
+}
+
+.four .section-info a h1 {
+  color: white;
+}
+
+.four .section-info .spantext {
+  border-top: 1px  solid #eeeeee;
+  border-bottom: 1px  solid #eeeeee;
+}
+
+.four .section-info .spantext span:first-child {
+  color: lightgray;
+}
+
+.four .section-info .spantext span:last-child {
+  color: white;
+}
+
+.four .section-info p {
+  color: white;
+  line-height: 30px;
+}
+
+.four .section-info .container-rowicon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.four .section-info .container-rowicon .icon {
+  border: 1px solid lightgray;
+  margin-top: 5px;
+  color: white;
+  font-size: 18px;
+}
+
+/* 
+======================================
+==================== five ===============
+======================================= */
+.five a {
+  color: #9b59b6;
+}
+
+.five a h1 {
+  color: #9b59b6;
+}
+
+.five .spantext span:first-child {
+  color: #8888;
+}
+
+.five .spantext span:last-child {
+  color: #9b59b6;
+}
+
+.five .container-rowicon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.five .container-rowicon .icon {
+  border: 1px solid lightgray;
+  color: #9b59b6;
+}
+
+/* 
+======================================
+==================== six ===============
+======================================= */
+.six .sec-photoedit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.six .sec-photoedit img {
+  width: 100%;
+}
+
+.six .cont-backcolor {
+  background-color: #9b59b6;
+  padding-bottom: 9px;
+  height: 100%;
+}
+
+.six .section-info {
+  text-align: left;
+}
+
+.six .section-info a {
+  color: white;
+}
+
+.six .section-info a h1 {
+  color: white;
+}
+
+.six .section-info .spantext {
+  border-top: 1px  solid #eeeeee;
+  border-bottom: 1px  solid #eeeeee;
+}
+
+.six .section-info .spantext span:first-child {
+  color: lightgray;
+}
+
+.six .section-info .spantext span:last-child {
+  color: white;
+}
+
+.six .section-info p {
+  color: white;
+  line-height: 30px;
+}
+
+.six .section-info .container-rowicon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.six .section-info .container-rowicon .icon {
+  border: 1px solid lightgray;
+  margin-top: 5px;
+  color: white;
+  font-size: 18px;
+}
+/*# sourceMappingURL=binary.css.map */
